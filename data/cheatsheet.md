@@ -11,19 +11,19 @@
 - [การใช้ร่วมกับ Vue.js (Buefy)](https://buefy.org/)
 - [Fontawesome สำหรับใช้ไอคอนบนเว็บ Bulma](https://fontawesome.com/)
 
-## การนำไปใช้งานผ่าน cdnjs
+## ⤵️ การนำไปใช้งานผ่าน cdnjs
 
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
 ```
 
-## การนำไปใช้งานผ่าน npm
+## ⤵️ การนำไปใช้งานผ่าน npm
 
 ```bash
 npm install bulma
 ```
 
-## Breakpoints (ขนาดตามอุปกรณ์)
+## 📱💻🖥️ Breakpoints (ขนาดตามอุปกรณ์)
 
 |ชื่อ Class|ขนาดเริ่มต้น|ขนาดสูงสุด|
 |-|-|-|
@@ -33,7 +33,7 @@ npm install bulma
 |widescreen|`1216px`|`1407px`|
 |fullhd|`1408px`|-|
 
-## การทำให้ HTML ใช้งานตามสไตล์ปกติ
+## 🏗️ การทำให้ HTML ใช้งานตามสไตล์ปกติ
 
 ```html
 <div class="content">
@@ -46,7 +46,7 @@ npm install bulma
 </div>
 ```
 
-## สีข้อความ
+## 🎨 สีข้อความ
 
 |ชื่อ Class|ตัวอย่าง|
 |-|-|
@@ -62,7 +62,7 @@ npm install bulma
 |`.has-text-warning`|<span class="has-text-warning">Hello, world!</span>|
 |`.has-text-danger`|<span class="has-text-danger">Hello, world!</span>|
 
-## สีพื้นหลัง
+## 🎨 สีพื้นหลัง
 
 |ชื่อ Class|ตัวอย่าง|
 |-|-|
@@ -78,7 +78,7 @@ npm install bulma
 |`.has-background-warning`|<span class="has-background-warning">Hello, world!</span>|
 |`.has-background-danger`|<span class="has-background-danger">Hello, world!</span>|
 
-## กำหนดระยะห่าง (Margin)
+## 📐 กำหนดระยะห่าง (Margin)
 
 > ได้มุมล่ะ `0` ถึง `6`
 
@@ -92,7 +92,7 @@ npm install bulma
 |`.mx-5`|X-Axis|ห่างมุมซ้ายขวา 5 หน่วย|
 |`.my-5`|Y-Axis|ห่างมุมบนล่าง 5 หน่วย|
 
-## กำหนดขยายขอบ (Padding)
+## 📐 กำหนดขยายขอบ (Padding)
 
 > ได้มุมล่ะ `0` ถึง `6`
 
@@ -106,7 +106,7 @@ npm install bulma
 |`.px-5`|X-Axis|ห่างมุมซ้ายขวา 5 หน่วย|
 |`.py-5`|Y-Axis|ห่างมุมบนล่าง 5 หน่วย|
 
-## กำหนดขนาดข้อความ
+## 🔤 กำหนดขนาดข้อความ
 
 |ชื่อ Class|ขนาด|ผลลัพธ์|
 |-|-|-|
@@ -118,7 +118,7 @@ npm install bulma
 |`.is-size-6`|`1rem`|<span class="is-size-6">Hello</span>|
 |`.is-size-7`|`0.75rem`|<span class="is-size-7">Hello</span>|
 
-## การจัดตำแหน่งข้อความ
+## 🔤 การจัดตำแหน่งข้อความ
 
 |ชื่อ Class|ผลลัพธ์|
 |-|-|
@@ -126,7 +126,7 @@ npm install bulma
 |`.has-text-left`|<div class="has-text-left">Hello My World</div>
 |`.has-text-right`|<div class="has-text-right">Hello My World</div>
 
-## การจัดรูปแบบข้อความ
+## 🔤 การจัดรูปแบบข้อความ
 
 |ชื่อ Class|ผลลัพธ์|
 |-|-|
@@ -134,7 +134,7 @@ npm install bulma
 |`.is-lowercase`|hello world|
 |`.is-uppercase`|HELLO WORLD|
 
-## กำหนดหัวข้อและคำอธิบาย
+## 🔤 กำหนดหัวข้อและคำอธิบาย
 
 > `is-*` มีขนาด `1` ถึง `6` หรือไม่ใช้ก็ได้
 
@@ -143,7 +143,7 @@ npm install bulma
 <h3 class="subtitle is-4">Subtitle</h3>
 ```
 
-## การกำหนด Display
+## 📺 การกำหนด Display
 
 |ชื่อ Class|ความหมาย|
 |-|-|
@@ -153,7 +153,7 @@ npm install bulma
 |`.is-inline-block`|Inline Block|
 |`.is-inline-flex`|Inline Flex|
 
-## การซ่อนเนื้อหา
+## 📺 การซ่อนเนื้อหา
 
 |ชื่อ Class|ผลลัพธ์|
 |-|-|
@@ -164,7 +164,7 @@ npm install bulma
 |`.is-hidden-widescreen`|ซ่อนเฉพาะขนาด widescreen, fullhd|
 |`.is-hidden-fullhd`|ซ่อนเฉพาะขนาด fullhd|
 
-## การใช้ Flex อย่างรวดเร็ว
+## 💪 การใช้ Flex อย่างรวดเร็ว
 
 > ใช้ `*` ตาม Value ที่ต้องการ
 
@@ -177,7 +177,7 @@ npm install bulma
 - `.is-flex-grow-*`
 - `.is-flex-shrink-*`
 
-## Class ช่วยเหลืออื่นๆ
+## 🧰 Class ช่วยเหลืออื่นๆ
 
 |ชื่อ Class|ผลลัพธ์|
 |-|-|
@@ -190,7 +190,7 @@ npm install bulma
 |`.is-clickable`|`cursor: pointer;`|
 |`.is-relative`|`position: relative;`|
 
-## Container + Section
+## 🔲 Container + Section
 
 ```html
 <section class="section">
@@ -200,7 +200,7 @@ npm install bulma
 </section>
 ```
 
-## Block (สร้างระยะห่างระหว่างเนื้อหา)
+## 🔲 Block (สร้างระยะห่างระหว่างเนื้อหา)
 
 ```html
 <nav class="block"></nav>
@@ -208,7 +208,7 @@ npm install bulma
 <footer class="block"></footer>
 ```
 
-## Columns
+## 🍱 Columns
 
 > ใช้กำหนดขนาด `is-*` ตามจำนวนที่ต้องการ ให้ครบ `12` หน่วย
 
@@ -220,7 +220,7 @@ npm install bulma
 </div>
 ```
 
-## Column Option
+## 🍱 Column Option
 
 ```html
 <div class="columns">
@@ -236,7 +236,7 @@ npm install bulma
 |`.is-offset-*`|ปรับระยะห่างทางซ้ายตามหน่วย|
 |`.is-*-desktop`|ปรับขนาดเฉพาะหน้าจอ Desktop เท่านั้น และขนาดอื่นๆ|
 
-## Columns Options
+## 🍱 Columns Options
 
 ```html
 <div class="columns is-centered is-multiline">
@@ -252,7 +252,7 @@ npm install bulma
 |`.is-centered`|ปรับกึ่งกลางในแนวนอน|
 |`.is-vcentered`|ปรับกึ่งกลางในแนวตั้ง|
 
-## Level
+## 🍡 Level
 
 > การแสดงผลของ Level เหมือนกับ Flexbox
 
@@ -278,7 +278,7 @@ npm install bulma
 </div>
 ```
 
-## Navbar
+## 🧭 Navbar
 
 > - สำหรับการกำหนดสี
 >   - `.is-dark`
@@ -314,7 +314,7 @@ npm install bulma
 </nav>
 ```
 
-## JavaScript สำหรับการเปิด narbar-menu
+## 🧭 JavaScript สำหรับการเปิด narbar-menu
 
 ```html
 <nav class="navbar">
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 ```
 
-## Navbar Dropdown
+## 🧭 Navbar Dropdown
 
 ```html
 <nav class="navbar" role="navigation" aria-label="dropdown navigation">
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </nav>
 ```
 
-## Hero
+## 🦸‍♂️ Hero
 
 > - สำหรับการกำหนดสี
 >   - `.is-dark`
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </section>
 ```
 
-## Media Object
+## 🗣️ Media Object
 
 ```html
 <article class="media">
@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </article>
 ```
 
-## Footer
+## 👣 Footer
 
 ```html
 <footer class="footer">
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </footer>
 ```
 
-## Box
+## 📦 Box
 
 ```html
 <div class="box">
@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Card
+## 🃏 Card
 
 ```html
 <div class="card">
@@ -479,7 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Button
+## 🆗 Button
 
 > - `is-*` ตามด้วยโค้ดสีปรับสีได้ เช่น `is-link`
 > - `is-*` ตามด้วยขนาด เช่น `is-large`
@@ -498,7 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <button class="button is-link is-loading">Loading</button>
 ```
 
-## Button Group
+## 🆗 Button Group
 
 > - `is-centered` ปรับปุ่มให้อยู่กึ่งกลาง
 > - `is-right` ปรับปุ่มให้อยู่ชิดขวา
@@ -512,13 +512,13 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Delete (ปุ่มกากาบาท)
+## ❌ Delete (ปุ่มกากาบาท)
 
 ```html
 <button class="delete is-small"></button>
 ```
 
-## Container สำหรับ Icon
+## 🎈 Container สำหรับ Icon
 
 ```html
 <span class="icon">
@@ -535,7 +535,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </span>
 ```
 
-## Container สำหรับ Image
+## 🖼️ Container สำหรับ Image
 
 > ขนาดมี `16x16` `24x24` `32x32` `48x48` `64x64` `96x96` `128x128`
 
@@ -545,15 +545,15 @@ document.addEventListener('DOMContentLoaded', () => {
 </figure>
 ```
 
-## Container สำหรับวิดีโอ และยืดหยุ่นตามขนาด
-
+## 🎞️ Container สำหรับวิดีโอ และยืดหยุ่นตามขนาด
+****
 ```html
 <figure class="image is-16by9">
   <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
 </figure>
 ```
 
-## Notification
+## 📣 Notification
 
 ```html
 <div class="notification is-info is-light">
@@ -562,7 +562,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Message
+## 💬 Message
 
 ```html
 <article class="message is-info">
@@ -584,13 +584,13 @@ document.addEventListener('DOMContentLoaded', () => {
 </article>
 ```
 
-## Progress
+## 📈 Progress
 
 ```html
 <progress class="progress is-small is-link" max="100"></progress>
 ```
 
-## Table
+## 📊 Table
 
 ```html
 <div class="table-container">
@@ -624,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
 |`.is-hoverable`|ทำให้ตารางแสดงสีเมื่อชี้แถว|
 |`.is-fullwidth`|ทำให้ตารางเต็มขอบ|
 
-## Tags
+## 🏷️ Tags
 
 ```html
 <span class="tag is-success is-light">Success</span>
@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Breadcrumb
+## 🍞 Breadcrumb
 
 ```html
 <nav class="breadcrumb">
@@ -660,7 +660,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </nav>
 ```
 
-## Dropdown
+## 🔽 Dropdown
 
 > เปลี่ยนจาก `.is-active` เป็น `.is-hoverable` เพื่อให้ชี้สำหรับเปิด Dropdown แทน
 
@@ -683,7 +683,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Menu
+## 🍽️ Menu
 
 ```html
 <aside class="menu">
@@ -707,7 +707,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </aside>
 ```
 
-## Modal
+## 📟 Modal
 
 > ให้เติม `.modal.is-active` ผ่าน JavaScript ด้วยตนเอง เพื่อแสดงผล Modal
 
@@ -740,7 +740,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Pagination
+## 📃 Pagination
 
 ```html
 <nav class="pagination is-centered is-rounded">
@@ -763,7 +763,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </nav>
 ```
 
-## Panel
+## 🎛️ Panel
 
 ```html
 <article class="panel is-success">
@@ -789,7 +789,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </article>
 ```
 
-## Tabs
+## 📑 Tabs
 
 > รูปแบบที่มี ได้แก่ `.tabs.is-boxed` `.tabs.is-toggle` `.tabs.is-toggle.is-toggle-rounded` `.tabs.is-fullwidth`
 
@@ -804,7 +804,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Form
+## 📄 Form
 
 ```html
 <form action="/" method="POST">
@@ -834,7 +834,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </form>
 ```
 
-## Form ในแนวนอน
+## 📄 Form ในแนวนอน
 
 ```html
 <form action="/" method="POST">
@@ -863,7 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </form>
 ```
 
-## Input พร้อม Icon
+## ⌨️ Input พร้อม Icon
 
 ```html
 <div class="field">
@@ -881,7 +881,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Input พร้อมปุ่ม
+## ⌨️ Input พร้อมปุ่ม
 
 > ใช้ `.control.is-expanded` เพื่อขยายขนาดช่วงควบคุมเนื้อหาให้เต็ม Block
 
@@ -911,7 +911,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Input พร้อมสีขอบสถานะ
+## ⌨️ Input พร้อมสีขอบสถานะ
 
 ```html
 <div class="control">
@@ -923,7 +923,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Input พร้อมสถานะการโหลด
+## ⌨️ Input พร้อมสถานะการโหลด
 
 ```html
 <div class="control">
@@ -931,7 +931,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Textarea
+## ⌨️ Textarea
 
 ```html
 <div class="control">
@@ -939,7 +939,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Select
+## 👉 Select
 
 ```html
 <div class="control">
@@ -967,7 +967,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Checkbox
+## ☑️ Checkbox
 
 ```html
 <div class="control">
@@ -978,7 +978,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## Radio
+## 🔘 Radio
 
 ```html
 <div class="control">
@@ -993,7 +993,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 ```
 
-## File
+## 📂 File
 
 > ใช้ Class `.file.has-name.is-boxed` เพื่อปรับเป็นแบบกล่องแทน และต้องใช้ JavaScript เพิ่มเติมสำหรับการกำหนดชื่อไฟล์ที่ได้เลือก
 
